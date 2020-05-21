@@ -1,0 +1,60 @@
+#active {
+  color: #66FCF1;
+}
+
+.collection {
+  width: 40%;
+  float: left;
+  margin: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  height: 200px !important;
+  background-image: url('../images/dansmoke.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+#ruby {
+  position: absolute;
+  top: 86%; left: 63%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  height: 200px;
+}
+
+#javascript {
+ position: absolute;
+ top: 86%; left: 55%;
+ transform: translate(-50%,-50%);
+ width: 200px;
+ height: 200px;
+}
+
+
+#html_css {
+  position: absolute;
+  top: 86%; left: 55%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  height: 200px;
+}
+
+#cSharp {
+  position: absolute;
+  top: 86%; left: 69%;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  height: 200px;
+}
+
+.collection_text a{
+  color:#45A29E;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.collection_text a:hover {
+  color: #66FCF1;
+}
